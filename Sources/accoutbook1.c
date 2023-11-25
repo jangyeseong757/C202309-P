@@ -27,7 +27,7 @@ int main() {
     printf("%s를 선택하셨습니다.\n", categories[category_choice - 1]);
 
     char detail[MAX_DETAIL_LENGTH];
-    printf("세부 내역을 입력해주세요 (예: 음식명:가격): ");
+    printf("세부 내역및 지출의 이유를 입력해주세요 (예: 음식명:가격 지출 이유:): ");
     scanf_s(" %[^\n]", detail);
 
     int len = strlen(detail);
